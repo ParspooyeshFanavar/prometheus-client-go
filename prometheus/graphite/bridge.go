@@ -25,8 +25,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/prometheus/common/expfmt"
-	"github.com/prometheus/common/model"
+	"github.com/ParspooyeshFanavar/prometheus-client-common/expfmt"
+	"github.com/ParspooyeshFanavar/prometheus-client-common/model"
 
 	dto "github.com/prometheus/client_model/go"
 

@@ -29,7 +29,7 @@ import (
 
 	json "github.com/json-iterator/go"
 
-	"github.com/prometheus/common/model"
+	"github.com/ParspooyeshFanavar/prometheus-client-common/model"
 
 	"github.com/ParspooyeshFanavar/prometheus-client-go/api"
 )

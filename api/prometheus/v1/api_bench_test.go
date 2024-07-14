@@ -20,7 +20,7 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/prometheus/common/model"
+	"github.com/ParspooyeshFanavar/prometheus-client-common/model"
 )
 
 func generateData(timeseries, datapoints int) (floatMatrix, histogramMatrix model.Matrix) {

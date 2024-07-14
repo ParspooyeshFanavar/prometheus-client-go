@@ -16,7 +16,7 @@ package version
 import (
 	"fmt"
 
-	"github.com/prometheus/common/version"
+	"github.com/ParspooyeshFanavar/prometheus-client-common/version"
 
 	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 )

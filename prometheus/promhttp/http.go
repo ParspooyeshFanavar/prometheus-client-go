@@ -41,8 +41,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/ParspooyeshFanavar/prometheus-client-common/expfmt"
 	"github.com/klauspost/compress/zstd"
-	"github.com/prometheus/common/expfmt"
 
 	"github.com/ParspooyeshFanavar/prometheus-client-go/internal/github.com/golang/gddo/httputil"
 	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"

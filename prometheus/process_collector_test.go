@@ -26,7 +26,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/prometheus/common/expfmt"
+	"github.com/ParspooyeshFanavar/prometheus-client-common/expfmt"
 	"github.com/prometheus/procfs"
 
 	dto "github.com/prometheus/client_model/go"

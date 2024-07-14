@@ -300,7 +300,7 @@ type GaugeFunc interface {
 //
 // NewGaugeFunc is a good way to create an “info” style metric with a constant
 // value of 1. Example:
-// https://github.com/prometheus/common/blob/8558a5b7db3c84fa38b4766966059a7bd5bfa2ee/version/info.go#L36-L56
+// https://github.com/ParspooyeshFanavar/prometheus-client-common/blob/8558a5b7db3c84fa38b4766966059a7bd5bfa2ee/version/info.go#L36-L56
 func NewGaugeFunc(opts GaugeOpts, function func() float64) GaugeFunc {
 	return newValueFunc(NewDesc(
 		BuildFQName(opts.Namespace, opts.Subsystem, opts.Name),

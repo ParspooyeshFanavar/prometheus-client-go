@@ -8,7 +8,7 @@ require (
 	github.com/efficientgo/e2e v0.14.1-0.20230421070206-d72d43f3b937
 	github.com/oklog/run v1.1.0
 	github.com/ParspooyeshFanavar/prometheus-client-go v1.19.1
-	github.com/prometheus/common v0.55.0
+	github.com/ParspooyeshFanavar/prometheus-client-common v0.55.0
 	gopkg.in/yaml.v2 v2.4.0
 )
 

@@ -43,9 +43,9 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/ParspooyeshFanavar/prometheus-client-common/expfmt"
 	"github.com/kylelemons/godebug/diff"
 	dto "github.com/prometheus/client_model/go"
-	"github.com/prometheus/common/expfmt"
 	"google.golang.org/protobuf/proto"
 
 	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"

@@ -45,8 +45,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/prometheus/common/expfmt"
-	"github.com/prometheus/common/model"
+	"github.com/ParspooyeshFanavar/prometheus-client-common/expfmt"
+	"github.com/ParspooyeshFanavar/prometheus-client-common/model"
 
 	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 )

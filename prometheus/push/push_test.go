@@ -21,7 +21,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/prometheus/common/expfmt"
+	"github.com/ParspooyeshFanavar/prometheus-client-common/expfmt"
 
 	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 )

@@ -29,7 +29,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prometheus/common/model"
+	"github.com/ParspooyeshFanavar/prometheus-client-common/model"
 
 	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 )

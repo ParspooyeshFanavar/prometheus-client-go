@@ -34,8 +34,8 @@ import (
 	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus/promhttp"
 
+	"github.com/ParspooyeshFanavar/prometheus-client-common/expfmt"
 	dto "github.com/prometheus/client_model/go"
-	"github.com/prometheus/common/expfmt"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )

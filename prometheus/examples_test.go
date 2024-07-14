@@ -23,8 +23,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ParspooyeshFanavar/prometheus-client-common/expfmt"
 	dto "github.com/prometheus/client_model/go"
-	"github.com/prometheus/common/expfmt"
 
 	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus/promhttp"

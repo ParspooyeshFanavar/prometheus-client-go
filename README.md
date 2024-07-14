@@ -57,10 +57,10 @@ server. It is still in alpha stage.
 ## Where is `model`, `extraction`, and `text`?
 
 The `model` packages has been moved to
-[`prometheus/common/model`](https://github.com/prometheus/common/tree/main/model).
+[`prometheus/common/model`](https://github.com/ParspooyeshFanavar/prometheus-client-common/tree/main/model).
 
 The `extraction` and `text` packages are now contained in
-[`prometheus/common/expfmt`](https://github.com/prometheus/common/tree/main/expfmt).
+[`prometheus/common/expfmt`](https://github.com/ParspooyeshFanavar/prometheus-client-common/tree/main/expfmt).
 
 ## Contributing and community
 

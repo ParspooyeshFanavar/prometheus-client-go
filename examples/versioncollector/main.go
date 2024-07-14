@@ -31,7 +31,7 @@ import (
 var addr = flag.String("listen-address", ":8080", "The address to listen on for HTTP requests.")
 
 // Build using ldflags, for example:
-// go build -ldflags "-X github.com/prometheus/common/version.Version=1.0.0 -X github.com/prometheus/common/version.Branch=abc123" .
+// go build -ldflags "-X github.com/ParspooyeshFanavar/prometheus-client-common/version.Version=1.0.0 -X github.com/ParspooyeshFanavar/prometheus-client-common/version.Branch=abc123" .
 func main() {
 	flag.Parse()
 

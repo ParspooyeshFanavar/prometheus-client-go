@@ -20,8 +20,8 @@ import (
 	"strings"
 	"time"
 
+	"github.com/ParspooyeshFanavar/prometheus-client-common/model"
 	dto "github.com/prometheus/client_model/go"
-	"github.com/prometheus/common/model"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -18,9 +18,9 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/ParspooyeshFanavar/prometheus-client-common/model"
 	"github.com/cespare/xxhash/v2"
 	dto "github.com/prometheus/client_model/go"
-	"github.com/prometheus/common/model"
 	"google.golang.org/protobuf/proto"
 
 	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus/internal"

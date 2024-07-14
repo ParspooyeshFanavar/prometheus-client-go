@@ -23,6 +23,7 @@ import (
 	"testing"
 	"time"
 
+	"github.com/ParspooyeshFanavar/prometheus-client-common/model"
 	"github.com/efficientgo/core/testutil"
 	"github.com/efficientgo/e2e"
 	e2edb "github.com/efficientgo/e2e/db"
@@ -31,7 +32,6 @@ import (
 	"github.com/efficientgo/e2e/monitoring/promconfig"
 	sdconfig "github.com/efficientgo/e2e/monitoring/promconfig/discovery/config"
 	"github.com/efficientgo/e2e/monitoring/promconfig/discovery/targetgroup"
-	"github.com/prometheus/common/model"
 	"gopkg.in/yaml.v2"
 )
 
