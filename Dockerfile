@@ -13,22 +13,22 @@
 
 # Builder image, where we build the example.
 FROM golang:1 AS builder
-WORKDIR /go/src/github.com/prometheus/client_golang
+WORKDIR /go/src/github.com/ParspooyeshFanavar/prometheus-client-go
 COPY . .
-WORKDIR /go/src/github.com/prometheus/client_golang/prometheus
+WORKDIR /go/src/github.com/ParspooyeshFanavar/prometheus-client-go/prometheus
 RUN go get -d
-WORKDIR /go/src/github.com/prometheus/client_golang/examples/random
+WORKDIR /go/src/github.com/ParspooyeshFanavar/prometheus-client-go/examples/random
 RUN CGO_ENABLED=0 GOOS=linux go build -a -tags netgo -ldflags '-w'
-WORKDIR /go/src/github.com/prometheus/client_golang/examples/simple
+WORKDIR /go/src/github.com/ParspooyeshFanavar/prometheus-client-go/examples/simple
 RUN CGO_ENABLED=0 GOOS=linux go build -a -tags netgo -ldflags '-w'
-WORKDIR /go/src/github.com/prometheus/client_golang/examples/gocollector
+WORKDIR /go/src/github.com/ParspooyeshFanavar/prometheus-client-go/examples/gocollector
 RUN CGO_ENABLED=0 GOOS=linux go build -a -tags netgo -ldflags '-w'
 
 # Final image.
 FROM quay.io/prometheus/busybox:latest
 LABEL maintainer="The Prometheus Authors <prometheus-developers@googlegroups.com>"
-COPY --from=builder /go/src/github.com/prometheus/client_golang/examples/random \
-    /go/src/github.com/prometheus/client_golang/examples/simple \
-    /go/src/github.com/prometheus/client_golang/examples/gocollector ./
+COPY --from=builder /go/src/github.com/ParspooyeshFanavar/prometheus-client-go/examples/random \
+    /go/src/github.com/ParspooyeshFanavar/prometheus-client-go/examples/simple \
+    /go/src/github.com/ParspooyeshFanavar/prometheus-client-go/examples/gocollector ./
 EXPOSE 8080
 CMD ["echo", "Please run an example. Either /random, /simple or /gocollector"]

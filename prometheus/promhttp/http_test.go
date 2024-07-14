@@ -29,7 +29,7 @@ import (
 	"github.com/klauspost/compress/zstd"
 	dto "github.com/prometheus/client_model/go"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 )
 
 type errorCollector struct{}

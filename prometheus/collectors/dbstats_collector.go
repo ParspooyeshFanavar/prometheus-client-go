@@ -16,7 +16,7 @@ package collectors
 import (
 	"database/sql"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 )
 
 type dbStatsCollector struct {

@@ -31,7 +31,7 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 )
 
 func TestSanitize(t *testing.T) {

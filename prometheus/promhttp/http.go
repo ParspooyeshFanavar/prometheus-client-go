@@ -44,8 +44,8 @@ import (
 	"github.com/klauspost/compress/zstd"
 	"github.com/prometheus/common/expfmt"
 
-	"github.com/prometheus/client_golang/internal/github.com/golang/gddo/httputil"
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/internal/github.com/golang/gddo/httputil"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 )
 
 const (

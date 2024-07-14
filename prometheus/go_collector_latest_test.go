@@ -27,7 +27,7 @@ import (
 
 	dto "github.com/prometheus/client_model/go"
 
-	"github.com/prometheus/client_golang/prometheus/internal"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus/internal"
 )
 
 func TestRmForMemStats(t *testing.T) {

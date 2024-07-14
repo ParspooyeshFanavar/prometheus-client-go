@@ -29,8 +29,8 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/client_golang/prometheus/internal"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus/internal"
 
 	version "github.com/hashicorp/go-version"
 )

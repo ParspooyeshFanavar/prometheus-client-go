@@ -16,7 +16,7 @@ package promauto
 import (
 	"testing"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 )
 
 func TestNil(t *testing.T) {

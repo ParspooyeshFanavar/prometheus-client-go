@@ -33,10 +33,10 @@ import (
 	"github.com/oklog/run"
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/client_golang/api"
-	v1 "github.com/prometheus/client_golang/api/prometheus/v1"
-	"github.com/prometheus/client_golang/prometheus"
-	"github.com/prometheus/client_golang/tutorial/internal"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/api"
+	v1 "github.com/ParspooyeshFanavar/prometheus-client-go/api/prometheus/v1"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/tutorial/internal"
 )
 
 func main() {

@@ -1,8 +1,8 @@
 # Prometheus Go client library
 
-[![CI](https://github.com/prometheus/client_golang/actions/workflows/go.yml/badge.svg)](https://github.com/prometheus/client_golang/actions/workflows/ci.yml)
-[![Go Report Card](https://goreportcard.com/badge/github.com/prometheus/client_golang)](https://goreportcard.com/report/github.com/prometheus/client_golang)
-[![Go Reference](https://pkg.go.dev/badge/github.com/prometheus/client_golang.svg)](https://pkg.go.dev/github.com/prometheus/client_golang)
+[![CI](https://github.com/ParspooyeshFanavar/prometheus-client-go/actions/workflows/go.yml/badge.svg)](https://github.com/ParspooyeshFanavar/prometheus-client-go/actions/workflows/ci.yml)
+[![Go Report Card](https://goreportcard.com/badge/github.com/ParspooyeshFanavar/prometheus-client-go)](https://goreportcard.com/report/github.com/ParspooyeshFanavar/prometheus-client-go)
+[![Go Reference](https://pkg.go.dev/badge/github.com/ParspooyeshFanavar/prometheus-client-go.svg)](https://pkg.go.dev/github.com/ParspooyeshFanavar/prometheus-client-go)
 [![Slack](https://img.shields.io/badge/join%20slack-%23prometheus--client_golang-brightgreen.svg)](https://slack.cncf.io/)
 
 This is the [Go](http://golang.org) client library for
@@ -24,31 +24,31 @@ CHANGELOG.md.
 
 Features that require breaking changes in the stable parts of the repository
 are being batched up and tracked in the [v2
-milestone](https://github.com/prometheus/client_golang/milestone/2), but plans for further development of v2 at the moment.
+milestone](https://github.com/ParspooyeshFanavar/prometheus-client-go/milestone/2), but plans for further development of v2 at the moment.
 
-> NOTE: The initial v2 attempt is in a [separate branch](https://github.com/prometheus/client_golang/tree/dev-v2). We also started
-experimenting on a new `prometheus.V2.*` APIs in [the 1.x's V2 struct](https://github.com/prometheus/client_golang/blob/main/prometheus/vnext.go#L23). Help wanted!
+> NOTE: The initial v2 attempt is in a [separate branch](https://github.com/ParspooyeshFanavar/prometheus-client-go/tree/dev-v2). We also started
+experimenting on a new `prometheus.V2.*` APIs in [the 1.x's V2 struct](https://github.com/ParspooyeshFanavar/prometheus-client-go/blob/main/prometheus/vnext.go#L23). Help wanted!
 
 ## Instrumenting applications
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/prometheus/client_golang/prometheus.svg)](https://pkg.go.dev/github.com/prometheus/client_golang/prometheus)
+[![Go Reference](https://pkg.go.dev/badge/github.com/ParspooyeshFanavar/prometheus-client-go/prometheus.svg)](https://pkg.go.dev/github.com/ParspooyeshFanavar/prometheus-client-go/prometheus)
 
 The
-[`prometheus` directory](https://github.com/prometheus/client_golang/tree/main/prometheus)
+[`prometheus` directory](https://github.com/ParspooyeshFanavar/prometheus-client-go/tree/main/prometheus)
 contains the instrumentation library. See the
 [guide](https://prometheus.io/docs/guides/go-application/) on the Prometheus
 website to learn more about instrumenting applications.
 
 The
-[`examples` directory](https://github.com/prometheus/client_golang/tree/main/examples)
+[`examples` directory](https://github.com/ParspooyeshFanavar/prometheus-client-go/tree/main/examples)
 contains simple examples of instrumented code.
 
 ## Client for the Prometheus HTTP API
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/prometheus/client_golang/api.svg)](https://pkg.go.dev/github.com/prometheus/client_golang/api)
+[![Go Reference](https://pkg.go.dev/badge/github.com/ParspooyeshFanavar/prometheus-client-go/api.svg)](https://pkg.go.dev/github.com/ParspooyeshFanavar/prometheus-client-go/api)
 
 The
-[`api/prometheus` directory](https://github.com/prometheus/client_golang/tree/main/api/prometheus)
+[`api/prometheus` directory](https://github.com/ParspooyeshFanavar/prometheus-client-go/tree/main/api/prometheus)
 contains the client for the
 [Prometheus HTTP API](http://prometheus.io/docs/querying/api/). It allows you
 to write Go applications that query time series data from a Prometheus

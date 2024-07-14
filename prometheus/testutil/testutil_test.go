@@ -22,7 +22,7 @@ import (
 
 	"github.com/prometheus/common/expfmt"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 )
 
 type untypedCollector struct{}

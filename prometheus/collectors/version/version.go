@@ -18,7 +18,7 @@ import (
 
 	"github.com/prometheus/common/version"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus"
 )
 
 // NewCollector returns a collector that exports metrics about current version

@@ -45,7 +45,7 @@ jobs:
         if: steps.preview_label_check.outputs.label_check == 'failure'
         with:
           message: |
-            PR body does not contain a valid type of change. Please refer to [CONTRIBUTING.md](https://github.com/prometheus/client_golang/blob/main/CONTRIBUTING.md#how-to-write-a-pr-description) for more information.
+            PR body does not contain a valid type of change. Please refer to [CONTRIBUTING.md](https://github.com/ParspooyeshFanavar/prometheus-client-go/blob/main/CONTRIBUTING.md#how-to-write-a-pr-description) for more information.
           comment_tag: labelfailure
           mode: recreate
       - name: Remove Label Check Failure Comment

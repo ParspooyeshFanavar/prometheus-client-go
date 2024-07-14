@@ -20,7 +20,7 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"github.com/prometheus/client_golang/prometheus/internal"
+	"github.com/ParspooyeshFanavar/prometheus-client-go/prometheus/internal"
 
 	dto "github.com/prometheus/client_model/go"
 	"google.golang.org/protobuf/proto"
